@@ -1,0 +1,29 @@
+{
+  "name": "remotion-project",
+  "version": "1.0.0",
+  "description": "My Remotion video",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^8.15.0",
+    "@remotion/cli": "4.0.0",
+    "@remotion/three": "4.0.0",
+    "@remotion/transitions": "4.0.0",
+    "@turf/turf": "^6.5.0",
+    "mapbox-gl": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "4.0.0",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@types/mapbox-gl": "^3.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/three": "^0.160.0",
+    "typescript": "^5.0.0"
+  }
+}
