@@ -4,7 +4,8 @@
   "description": "My Remotion video",
   "scripts": {
     "start": "remotion studio",
-    "build": "remotion render",
+    "build": "remotion render --output out/travel.mp4 --gl=angle --concurrency=1 --chrome-mode=chrome-for-testing",
+    "build:xvfb": "xvfb-run --server-args='-screen 0 1920x1080x24' npm run build",
     "upgrade": "remotion upgrade"
   },
   "dependencies": {
